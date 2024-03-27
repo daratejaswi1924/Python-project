@@ -33,6 +33,7 @@ class reguser:
 
     def displaydet(self):
         if self.cur_user:
+            user=self.reg_user[self.cur_user]
             print("details")
             print("name",user.name)
             print("rollno",user.rollno)
