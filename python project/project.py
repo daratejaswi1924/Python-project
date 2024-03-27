@@ -43,7 +43,7 @@ class reguser:
             print("no user log in")
     def logout(self):
         if self.cur_user:
-            print("\nlogging out user:",self.reg_user[self.cur_user].nsme)
+            print("\nlogging out user:",self.reg_user[self.cur_user].name)
             self.cur_user=None
         else:
             print("no user logged in")
